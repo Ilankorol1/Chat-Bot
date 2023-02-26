@@ -1,0 +1,21 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns":  ["hello","hey","whats up?","hi","good day", "how is it goings"],
+  "responses":  ["Hello!", "Hey","How can I help you?"]},
+
+  {"tag": "hours",
+  "patterns":  ["when are you open?","when do you work","hours of operaion"],
+  "responses":  ["24/7"]},
+
+  {"tag": "goodbye",
+  "patterns":  ["thank you bye","bye bye","thats all for today","thanks for the help","cao", "see ya"],
+  "responses":  ["Sad to see you leave", "Goodbye","bye bye"]},
+
+  {"tag": "name",
+  "patterns":  ["what is you name?","how to call you?","who are you?"],
+  "responses":  ["You can call me NeuralChat!", "my name is NeuralChat","NeuralChat"]},
+
+  {"tag": "shop",
+  "patterns":  ["i would like to buy somethings","what can i buy?","what do you have","i want to buy somethings"],
+  "responses":  ["We have a huge shop of many many things from music discs to cakes and cookies"]}
+]}
